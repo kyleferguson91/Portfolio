@@ -90,8 +90,11 @@ background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
 background: linear-gradient(to right, #5B86E5, #36D1DC); 
 */
     list-style: none;
-    background-color: #BCCCDC;
+   /* background-color: #BCCCDC; */
     width: 100%;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin-top: 0rem;
 
 }
 
@@ -127,14 +130,14 @@ background: linear-gradient(to right, #5B86E5, #36D1DC);
 
 .navlist>li {
     margin-left: 1rem;
-
+    transition: transform .2s ease, color 0.2s ease;
 }
 
 .navlist>li:hover {
-    color: red;
+   /* color: red;*/
     cursor: pointer;
     transform: scale(1.3);
-    transition: transform .2s ease, color 0.3s ease;
+    transition: transform .2s ease, color 0.2s ease;
 
 }
 
@@ -145,6 +148,23 @@ background: linear-gradient(to right, #5B86E5, #36D1DC);
     display: grid;
     grid-template-columns: repeat(1fr);
     grid-template-rows: 1fr 12fr 1fr;
+}
+
+.aboutmeholder
+{
+    background-image: url("./images/pexels-thatguycraig000-1563355.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutme
+{
+padding: 2rem;    
+background-color: white;
+width: max-content;
 }
 
 .footerdiv {
