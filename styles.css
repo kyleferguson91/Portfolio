@@ -45,7 +45,7 @@ body {
     margin-top: 4rem;
     height: 4rem;
     transform: scale(1);
-
+    transition: transform 0.3s ease;
 }
 
 .downarrow:hover {
@@ -84,13 +84,13 @@ body {
 
 
 .navbar {
-/*
+    /*
     background: #36D1DC; 
 background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC); 
 background: linear-gradient(to right, #5B86E5, #36D1DC); 
 */
     list-style: none;
-   /* background-color: #BCCCDC; */
+background: linear-gradient(90deg, #ffffff, #00000021);
     width: 100%;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
@@ -99,6 +99,7 @@ background: linear-gradient(to right, #5B86E5, #36D1DC);
 }
 
 .navlist {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 60%;
     list-style: none;
     display: flex;
@@ -116,11 +117,12 @@ background: linear-gradient(to right, #5B86E5, #36D1DC);
     width: 2rem;
     height: 2rem;
     margin-left: 2rem;
- 
+    transition: transform ease 0.2s;
 }
-.navlogo:hover
-{
+
+.navlogo:hover {
     transform: scale(1.3);
+    transition: transform ease 0.2s;
 
 }
 
@@ -134,7 +136,7 @@ background: linear-gradient(to right, #5B86E5, #36D1DC);
 }
 
 .navlist>li:hover {
-   /* color: red;*/
+    /* color: red;*/
     cursor: pointer;
     transform: scale(1.3);
     transition: transform .2s ease, color 0.2s ease;
@@ -150,22 +152,45 @@ background: linear-gradient(to right, #5B86E5, #36D1DC);
     grid-template-rows: 1fr 12fr 1fr;
 }
 
-.aboutmeholder
-{
-    background-image: url("./images/pexels-thatguycraig000-1563355.jpg");
+.aboutmeholder {
+    background-image: url("./images/pexels-stywo-1110497.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
 }
-.aboutme
-{
-padding: 2rem;    
-background-color: white;
-width: max-content;
+
+.aboutmetext {
+    font-weight: bolder;
+    width: 80vw;
+    font-size: 1.3rem;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+.aboutme {
+    border-radius: 20px;
+
+
+    padding: 2rem;
+
+    width: fit-content;
+}
+
+.glassy-background {
+    background: rgba(169, 169, 169, 0.5);
+    /* Semi-transparent gray */
+    color: black;
+    /* Black text color */
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
 
 .footerdiv {
     /*
@@ -174,7 +199,14 @@ width: max-content;
     background: linear-gradient(to right, #f2fcfe, #1c92d2); 
     text-align: center;
     */
-    background-color: #9AA6B2;
+    background: linear-gradient(90deg, #0000002a, #ffffff);
+    background-color: white;
+    border-top: 2px black solid;
+    border-bottom: 2px solid black;
+    text-align: center;
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
 
 }
 
@@ -182,24 +214,42 @@ width: max-content;
     visibility: hidden;
 }
 
-
-
-.red 
+.footertext
 {
+    vertical-align: middle;
+}
+
+.red {
     background-color: red;
 }
 
-.projectcontainer
-{
-    padding: 2rem;
-    display: flex;
-    column-gap: 4rem;
-    background-color: hsl(180, 100%, 10%);
-    height: 100%;
+.content {
+    overflow: scroll;
+    background-image: url(/images/pexels-stywo-1110497.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.projectcard
-{
+.projectcontainer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    padding: 2rem;
+    display: flex;
+    overflow: auto;
+    background-image: url("./images/pexels-stywo-1110497.jpg");
+    background-size: cover;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 4rem;
+    column-gap: 4rem;
+    background-color: hsl(180, 100%, 10%);
+
+}
+
+.projectcard {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     background-color: #D9EAFD;
     width: 20rem;
     height: max-content;
@@ -208,8 +258,10 @@ width: max-content;
     justify-content: space-between;
     padding: 1rem;
     border-radius: 10px;
+
     /*transition: transform .3s ease;*/
 }
+
 /*
 .projectcard:hover
 {
@@ -223,27 +275,36 @@ width: max-content;
 
 }
 */
-.projectitlediv
-{
-  /*  border: 2px solid red;*/
-  text-align: center;
+.projectitlediv {
+    /*  border: 2px solid red;*/
+    text-align: center;
 
 }
 
 
 
-.projectimagediv
-{
+.projectimagediv {
     border: 2px solid black;
 
 }
 
-.projectimagediv>img
-{
+.projectimagediv>img {
     width: 100%;
     height: 100%;
 }
 
-.projectlinkdiv{
+.projectlinkdiv {
     margin-bottom: 1rem;
+}
+
+.projectlink {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+.landingholder
+{
+    padding: 2rem;
+
 }
