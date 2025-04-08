@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    
 }
 
 body {
@@ -9,15 +10,17 @@ body {
 }
 html, body
 {
-    
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .landingpage {
     background-image: url("./images/divbg.jpg");
     background-size: cover;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
+    width: 99%;
+    height: 99%;
+    overflow-x: auto;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,14 +80,14 @@ html, body
     visibility: visible;
     width: 100vw;
     height: 100vh;
-    transition: opacity 0.3s ease, visibility 0.5s ease, height 0.5s ease;
+    transition: opacity 0.2s ease-in-out, visibility 0.5s ease-in-out, height 0.3s ease-in-out, width 0.3s ease-in-out;
 
 }
 
 .fade.hidden {
     opacity: 0;
     visibility: hidden;
-
+    width: 0vw;
     height: 0vh;
 }
 
@@ -96,7 +99,7 @@ background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
 background: linear-gradient(to right, #5B86E5, #36D1DC); 
 */
     list-style: none;
-
+padding: 1rem;
     width: 100%;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
@@ -156,24 +159,24 @@ background: linear-gradient(to right, #5B86E5, #36D1DC);
 }
 
 .mainpagediv {
-
-    height: 100vh;
-    width: 100vw;
+    max-height: 100vh;
+   height: 100%;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(1fr);
-    grid-template-rows: 1fr 12fr 1fr;
+   
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 30fr 1fr;
 }
 
 .aboutmeholder {
  
-  background-repeat: no-repeat;
-  background-size: cover;
-width: 80%;
-  display: flex;
-  justify-content: center;
+margin-left: auto;
+margin-right: auto;
+width: max-content;
+ 
 align-self: center;
-justify-self: center;
   padding: 1rem;
+  height: 100%
 }
 
 .aboutmetext {
@@ -183,6 +186,7 @@ justify-self: center;
     font-size: 1.3rem;
     height: 100%;
     font-family: 'Inter', sans-serif;
+    
 }
 
 
@@ -206,6 +210,7 @@ justify-self: center;
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     width: 100%;
+    height: max-content;
 }
 
 
@@ -230,6 +235,7 @@ justify-self: center;
     font-family: 'Inter', sans-serif;
     font-size: 1.0rem;
 
+    
 }
 
 .hidden {
@@ -252,6 +258,8 @@ justify-self: center;
     background-image: url(/images/pexels-stywo-1110497.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+
 }
 
 .projectcontainer {  font-family: 'Inter', sans-serif;
@@ -259,14 +267,14 @@ justify-self: center;
     padding: 1rem;
     display: flex;
     overflow: auto;
-    background-image: url("./images/pexels-stywo-1110497.jpg");
-    background-size: cover;
 
+    margin-left: auto;
+    margin-right: auto;
     flex-wrap: wrap;
     flex-direction: row;
     row-gap: 4rem;
     column-gap: 4rem;
-    background-color: hsl(180, 100%, 10%);
+
 
 }
 

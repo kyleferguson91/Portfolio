@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.addEventListener("scroll", (e) => {
         landingpagediv.classList.add("hidden");
+    
         
 
 
