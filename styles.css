@@ -5,15 +5,18 @@
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+  
 }
-
+html, body
+{
+    
+}
 
 .landingpage {
     background-image: url("./images/divbg.jpg");
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,10 +24,12 @@ body {
 }
 
 .contactlogo {
-    width: 3rem;
-    height: 3rem;
+    width: 3rem !important;
+    height: 3rem !important;
     transition: transform 0.3s ease;
 }
+
+
 
 .contactlogo:hover {
     transform: scale(1.3);
@@ -57,7 +62,7 @@ body {
     color: white;
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 3em;
 }
 
@@ -90,16 +95,22 @@ background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
 background: linear-gradient(to right, #5B86E5, #36D1DC); 
 */
     list-style: none;
-background: linear-gradient(90deg, #ffffff, #00000021);
+
     width: 100%;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
     margin-top: 0rem;
+    background: rgba(20, 20, 20, 0.6);
+    color: #e4e4e4;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 
 }
 
 .navlist {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Inter', sans-serif;
     width: 60%;
     list-style: none;
     display: flex;
@@ -153,34 +164,39 @@ background: linear-gradient(90deg, #ffffff, #00000021);
 }
 
 .aboutmeholder {
-    background-image: url("./images/pexels-stywo-1110497.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    display: grid;
-    align-items: center;
-    justify-content: center;
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+width: 80%;
+  display: flex;
+  justify-content: center;
+align-self: center;
+justify-self: center;
+  padding: 1rem;
 }
 
 .aboutmetext {
+    color: #e5e5e5;
     font-weight: bolder;
     width: 80vw;
     font-size: 1.3rem;
     height: 100%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Inter', sans-serif;
 }
+
 
 .aboutme {
     border-radius: 20px;
-
-
-    padding: 2rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 1);
+    position: relative;
+    z-index: 1;
+    padding: 1rem;
 
     width: fit-content;
 }
 
 .glassy-background {
-    background: rgba(169, 169, 169, 0.5);
+    background: rgba(20, 20, 20, 0.65);
     /* Semi-transparent gray */
     color: black;
     /* Black text color */
@@ -204,9 +220,14 @@ background: linear-gradient(90deg, #ffffff, #00000021);
     border-top: 2px black solid;
     border-bottom: 2px solid black;
     text-align: center;
-  
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.2rem;
+    background: rgba(20, 20, 20, 0.6);
+    color: #e4e4e4;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.0rem;
 
 }
 
@@ -224,16 +245,17 @@ background: linear-gradient(90deg, #ffffff, #00000021);
 }
 
 .content {
-    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
     background-image: url(/images/pexels-stywo-1110497.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.projectcontainer {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.projectcontainer {  font-family: 'Inter', sans-serif;
 
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     overflow: auto;
     background-image: url("./images/pexels-stywo-1110497.jpg");
@@ -248,33 +270,60 @@ background: linear-gradient(90deg, #ffffff, #00000021);
 }
 
 .projectcard {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-    background-color: #D9EAFD;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(30, 30, 30, 0.6); /* darker, modern glass look */
+    color: #f5f5f5;
     width: 20rem;
-    height: max-content;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
     padding: 1rem;
-    border-radius: 10px;
-
-    /*transition: transform .3s ease;*/
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-/*
-.projectcard:hover
+.projectdescriptiondiv p {
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    color: #dcdcdc;
+}
+
+.projectdescriptiondiv a
 {
-     flip transition
-    transform: rotateY(180deg);
-    background-color: red;
-    transition: transform .3s ease;
-    
-    color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 
 }
-*/
+
+.projecttitlediv h3 {
+    color: #ffffff;
+  }
+
+.projectcard a 
+{
+    width: max-content;
+    display: inline;
+    color: #b3b8f1; 
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.projectcard a:hover {
+    color: #d6d9ff; 
+    border-bottom: 1px solid #d6d9ff;
+    cursor: pointer;
+}
+
+.projectcard:hover {
+    box-shadow: 0 0 12px rgba(79, 70, 229, 0.6); 
+    transform: translateY(-4px);
+    cursor: pointer;
+}
 .projectitlediv {
     /*  border: 2px solid red;*/
     text-align: center;
@@ -284,6 +333,11 @@ background: linear-gradient(90deg, #ffffff, #00000021);
 
 
 .projectimagediv {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 1rem;
     border: 2px solid black;
 
 }
@@ -291,6 +345,8 @@ background: linear-gradient(90deg, #ffffff, #00000021);
 .projectimagediv>img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: top center;
 }
 
 .projectlinkdiv {
