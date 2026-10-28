@@ -22,7 +22,7 @@ The layout was informed by Brittany Chiang's persistent identity and reading nav
 
 ## Project selection
 
-Selected Stricklands work covers the IT Toolbox, PC user migration, and BB workspace extensions. Keep the workspace entry explicitly in progress; its repository documents service/device acceptance still outstanding. Internal summaries omit repository links and operational configuration.
+Selected Stricklands work covers the IT Toolbox, PC user migration, BB workspace extensions, the read-only operations console, and employee training videos. Keep the workspace entry explicitly in progress; its repository documents service/device acceptance still outstanding. Internal summaries omit repository links, training URLs, and operational configuration. Training descriptions do not imply that every draft lesson is published.
 
 Earlier programming projects cover Java/Spring Boot microservices, Blossom Blueprint (Python/Flask), PlatePlan, and BBC News Reader. Descriptions were checked against repository documentation or the relevant application routes/controllers. Basic exercises, empty repositories, and duplicate implementations are not featured.
 
