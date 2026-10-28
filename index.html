@@ -1,60 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./script.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <title>Kyle's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f5f0">
+  <meta name="description" content="Kyle Ferguson is an IT support and automation professional who builds practical software and tools for real-world technology work.">
+  <meta property="og:title" content="Kyle Ferguson | IT Support & Automation">
+  <meta property="og:description" content="Practical IT. Thoughtful automation. Useful software.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://kyleferguson91.github.io/Portfolio/">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Kyle Ferguson | IT Support & Automation</title>
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Kyle Ferguson, home"><span class="brand-mark">KF</span><span>Kyle Ferguson</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#projects">Software</a>
+      <a href="#about">About</a>
+      <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
 
-    <div class="landingpage fade">
-        <p class="titlenametext">Hi, I'm Kyle</p>
-
-        <div class="logocontainer">
-            <a href="https://www.linkedin.com/in/kferguson91/"><img class="contactlogo" src="./images/linkedinwhite.png"
-                    alt=""></a>
-            <a href="https://github.com/kyleferguson91/"><img class="contactlogo" src="./images/githubwhite.png"
-                    alt=""></a>
-                    
+  <main id="main">
+    <section class="hero section-wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> IT SUPPORT · AUTOMATION · SOFTWARE</p>
+        <h1 id="hero-title">Practical IT.<br><span>Thoughtful automation.</span><br>Useful software.</h1>
+        <p class="hero-lede">I’m Kyle, an IT support and automation professional at Stricklands. I pair hands-on Windows, network, and endpoint work with software that makes everyday support more repeatable.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="button button-quiet" href="https://www.linkedin.com/in/kferguson91/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
         </div>
+        <p class="hero-note">Computer Programming diploma · Algonquin College</p>
+      </div>
+      <aside class="approach-card" aria-label="How I approach technical work">
+        <p class="card-kicker">HOW I WORK</p>
+        <div class="approach-step"><span>01</span><div><strong>Start with the real need</strong><p>Understand the user, the environment, and the outcome.</p></div></div>
+        <div class="approach-step"><span>02</span><div><strong>Make the solution repeatable</strong><p>Use clear steps, useful tools, and sensible automation.</p></div></div>
+        <div class="approach-step"><span>03</span><div><strong>Verify it in practice</strong><p>Check the result where the work actually happens.</p></div></div>
+        <div class="card-rule" aria-hidden="true"></div>
+        <p class="approach-foot">Support experience informs the software I build.</p>
+      </aside>
+    </section>
 
-        <img class="downarrow" src="./images/arrow-down-sign-to-navigate.png" alt="">
-    </div>
+    <section class="section-wrap section-block" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">SELECTED WORK</p><h2 id="work-title">Technology that helps work move.</h2></div>
+        <p class="section-intro">A mix of hands-on support, practical automation, and software development—kept focused on the problem being solved.</p>
+      </div>
+      <div class="work-grid">
+        <article class="work-card">
+          <div class="work-card-top"><span class="work-number">01</span><span class="work-tag">STRICKLANDS</span></div>
+          <h3>IT support & infrastructure</h3>
+          <p>Support dealership teams across Windows systems, networks, endpoints, printers, phones, and other business technology.</p>
+          <ul class="tag-list" aria-label="Focus areas"><li>Windows support</li><li>Network installs</li><li>Deployment</li></ul>
+        </article>
+        <article class="work-card work-card-featured">
+          <div class="work-card-top"><span class="work-number">02</span><span class="work-tag">TOOLS & AUTOMATION</span></div>
+          <h3>Build for repeatable support</h3>
+          <p>Develop custom internal software, BB plugins, and support tools, using AI-assisted development and scripting to streamline recurring IT work.</p>
+          <ul class="tag-list" aria-label="Focus areas"><li>PowerShell</li><li>BB plugins</li><li>Workflow tools</li></ul>
+        </article>
+        <article class="work-card">
+          <div class="work-card-top"><span class="work-number">03</span><span class="work-tag">SERVICE & ENABLEMENT</span></div>
+          <h3>Make solutions usable</h3>
+          <p>Turn technical fixes into clear documentation, self-service guidance, and consistent support practices.</p>
+          <ul class="tag-list" aria-label="Focus areas"><li>Documentation</li><li>Training</li><li>User support</li></ul>
+        </article>
+      </div>
+      <p class="privacy-note">Work examples are summarized at a general level; internal code, systems, and site details remain private.</p>
+    </section>
 
-    <div class="mainpagediv">
+    <section class="section-wrap section-block showcase-section" aria-labelledby="toolbox-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">FEATURED INTERNAL TOOL</p><h2 id="toolbox-title">Support experience, turned into software.</h2></div>
+        <p class="section-intro">Kyle’s IT Toolbox brings recurring technician workflows into a searchable BB plugin, built with AI-assisted development.</p>
+      </div>
+      <div class="showcase-facts">
+        <p><strong>The purpose</strong>Make printer, workstation, and file utilities easier to find and use consistently.</p>
+        <p><strong>What I built</strong>A custom plugin interface connecting maintained Windows tools with a central support workspace.</p>
+        <p><strong>The approach</strong>Explicit computer selection, review steps, and familiar Windows prompts before operational actions.</p>
+      </div>
+      <div class="showcase-gallery">
+        <figure><a href="./toolbox-overview.jpg" target="_blank" rel="noopener noreferrer" aria-label="Enlarge sanitized toolbox catalogue screenshot"><img src="./toolbox-overview.jpg" alt="Kyle’s IT Toolbox catalogue with no execution computer selected and generic printer and support tool descriptions." width="950" height="470" loading="lazy" decoding="async"></a><figcaption>Sanitized capture · tool catalogue <span aria-hidden="true">↗</span></figcaption></figure>
+        <figure><a href="./toolbox-review.jpg" target="_blank" rel="noopener noreferrer" aria-label="Enlarge sanitized tool details screenshot"><img src="./toolbox-review.jpg" alt="Share-access tool details showing that an execution computer must be selected, with verification guidance and generic workstation utilities." width="1034" height="542" loading="lazy" decoding="async"></a><figcaption>Sanitized capture · review and verification <span aria-hidden="true">↗</span></figcaption></figure>
+      </div>
+      <p class="privacy-note">Actual interface captures with no computer selected. Internal workspace names, accounts, addresses, and operational results are excluded. Select an image to enlarge it.</p>
+    </section>
 
-        <div class="navbar">
-            <ul class="navlist">
-                <li>About</li>
-                <li>Projects</li>
-                <!-- <li>Links</li> -->
-                <div class="logoholder">
-                    <a href="https://www.linkedin.com/in/kferguson91/"><img class="navlogo"
-                            src="./images/linkedin-logo.png" alt=""></a>
-                    <a href="https://github.com/kyleferguson91/"><img class="navlogo" src="./images/github.png"
-                            alt=""></a>
-                            <a href="mailto:kyleferguson91@gmail.com"><img class="navlogo emaillogo" src="./images/email.png"
-                                alt=""></a>  
-                </div>
-            </ul>
+    <section class="section-wrap section-block software-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">SOFTWARE I’VE BUILT</p><h2 id="projects-title">Code with a purpose.</h2></div>
+        <p class="section-intro">Selected personal projects show how I approach APIs, data, and user-facing applications.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-icon" aria-hidden="true">P</div>
+          <div><p class="project-type">JAVA · JSP · SQL · API</p><h3>PlatePlan</h3><p>A recipe search app that uses an available ingredient to find meal ideas through TheMealDB.</p><a class="text-link" href="https://github.com/kyleferguson91/plateplan" target="_blank" rel="noopener noreferrer">View project on GitHub <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-icon project-icon-blue" aria-hidden="true">B</div>
+          <div><p class="project-type">ANDROID · JAVA · XML API</p><h3>BBC News Reader</h3><p>An Android app for browsing BBC articles, opening story details, and saving favorites between sessions.</p><a class="text-link" href="https://github.com/kyleferguson91/BBCNewsApp" target="_blank" rel="noopener noreferrer">View project on GitHub <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+      <a class="all-projects" href="https://github.com/kyleferguson91?tab=repositories" target="_blank" rel="noopener noreferrer">Explore more on GitHub <span aria-hidden="true">↗</span></a>
+    </section>
 
+    <section class="about-band" id="about" aria-labelledby="about-title">
+      <div class="section-wrap about-layout">
+        <div><p class="eyebrow">A LITTLE ABOUT ME</p><h2 id="about-title">I like making technology easier to support—and easier to use.</h2></div>
+        <div class="about-copy"><p>My work brings together customer-focused IT support and a formal background in computer programming. I enjoy tracing a problem to its cause, then improving the process so the next person has a clearer path.</p><p>My education includes a Computer Programming diploma from Algonquin College and the President’s Honour Roll. I continue to build with JavaScript, Java, Python, SQL, and PowerShell.</p></div>
+      </div>
+    </section>
 
-        </div>
+    <section class="section-wrap skills-section" aria-labelledby="skills-title">
+      <p class="eyebrow">AREAS I WORK IN</p>
+      <h2 class="visually-hidden" id="skills-title">Skills and focus areas</h2>
+      <ul class="skills-list"><li>Windows & endpoint support</li><li>Network installations</li><li>PowerShell automation</li><li>BB plugin development</li><li>JavaScript</li><li>Java</li><li>Python</li><li>SQL</li></ul>
+    </section>
 
-        <div class="content">
+    <section class="contact-band" id="contact" aria-labelledby="contact-title">
+      <div class="section-wrap contact-layout">
+        <div><p class="eyebrow">LET’S CONNECT</p><h2 id="contact-title">Good support and good software start with a conversation.</h2></div>
+        <div class="contact-actions"><a class="button button-light" href="https://www.linkedin.com/in/kferguson91/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a class="button button-outline-light" href="mailto:kyleferguson91@gmail.com">Email Kyle <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+  </main>
 
-    
-
-            
-
-        </div>
-        <div class="footerdiv"><p class="footertext">&copy; Kyle Ferguson 2025</p></div>
+  <footer class="site-footer"><a class="brand brand-footer" href="#top"><span class="brand-mark">KF</span><span>Kyle Ferguson</span></a><p>IT support · Automation · Software</p><p>© 2026 Kyle Ferguson</p></footer>
 </body>
-
 </html>
