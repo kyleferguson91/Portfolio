@@ -20,4 +20,10 @@ All navigation and the screenshot disclosure work without JavaScript. Screenshot
 
 The layout was informed by Brittany Chiang's persistent identity and reading navigation (https://brittanychiang.com/), Lee Robinson's concise personal writing (https://leerob.com/), and Lynn Fisher's emphasis on individual identity (https://lynnandtonic.com/). The code, copy, colours, and assets are specific to Kyle's portfolio; no reference-site code or assets were imported.
 
+## Project selection
+
+Selected Stricklands work covers the IT Toolbox, PC user migration, and BB workspace extensions. Keep the workspace entry explicitly in progress; its repository documents service/device acceptance still outstanding. Internal summaries omit repository links and operational configuration.
+
+Earlier programming projects cover Java/Spring Boot microservices, Blossom Blueprint (Python/Flask), PlatePlan, and BBC News Reader. Descriptions were checked against repository documentation or the relevant application routes/controllers. Basic exercises, empty repositories, and duplicate implementations are not featured.
+
 The GitHub Pages project site is served from the `Portfolio` repository's default branch. Keep the canonical URL and LinkedIn destination aligned if the project is moved.
