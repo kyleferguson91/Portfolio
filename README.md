@@ -4,7 +4,7 @@ A lightweight, responsive portfolio for `https://kyleferguson91.github.io/Portfo
 
 ## Content focus
 
-The site presents Kyle's IT support, automation, and software-development work in a concise format. Stricklands work is described generally; internal source, screenshots, customer information, locations, and system details are not published. Personal software examples link to their public GitHub repositories.
+This is a personal portfolio with a name-led introduction, selected project write-ups, work experience, education, and skills. It presents Kyle's own contributions without service packages or sales copy. Stricklands work is described generally; private source, raw internal screenshots, customer information, locations, and system details are excluded. Only reviewed, sanitized interface captures are published. Programming projects link to their public GitHub repositories.
 
 ## Files
 
