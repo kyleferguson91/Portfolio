@@ -33,6 +33,6 @@ Added Windows, Remote User Support, and Google Workspace with current-role assoc
 
 Checked the existing headline, IT Services and IT Consulting industry, location, portfolio URL, and education. The diploma entry lists completion in April 2025 and 4.0 GPA; the website now includes those education details. No new certification was claimed. Added an actual portfolio capture and Open Graph metadata for sharing.
 
-LinkedIn's Featured link editor returned a preview-loading error for both the public portfolio and its GitHub repository and disabled Save. No Featured entry was published. The existing Portfolio button and About URL remain available.
+LinkedIn's Featured link editor returned a preview-loading error for both the public portfolio and its GitHub repository and disabled Save. As a supported fallback, published the actual portfolio capture as Featured media, titled "Portfolio | IT Support, Automation & Software", with a short description and public website address. The saved Featured entry was verified. The existing Portfolio button and About URL remain available.
 
 LinkedIn's own references: [relevant skills and context](https://www.linkedin.com/business/talent/blog/talent-acquisition/skills-on-linkedin-profile), [skills ordering](https://www.linkedin.com/help/linkedin/answer/a564124), [education](https://www.linkedin.com/help/linkedin/answer/a539843), and [Featured work samples](https://www.linkedin.com/help/linkedin/answer/a552452/featured-section-on-your-profile-faqs).
