@@ -12,6 +12,7 @@ This is a personal portfolio with a name-led introduction, selected project writ
 - `styles.css` — responsive styling with a desktop profile sidebar; no framework or build step
 - `script.js` — progressive enhancement for the active section indicator
 - `favicon.svg` — simple text favicon
+- `output/pdf/Kyle-Ferguson-Resume.pdf` — one-page general resume aligned with the site’s IT support, automation, and practical software focus
 - `toolbox-overview.jpg`, `toolbox-review.jpg` — sanitized captures of the optional companion toolbox interface, not the standalone Windows executable; no selected computer or internal workspace information
 
 All navigation and the screenshot disclosure work without JavaScript. Screenshots document the interface; they do not imply that operational tools were run during the portfolio work.
