@@ -26,6 +26,6 @@ Sanitized projects cover the standalone Windows IT Toolbox, PC user migration, a
 
 Lead with transferable IT support and software strengths; the current employer belongs in Experience. Separate customer-facing work history from Computer Programming education. Languages describe education/project experience rather than daily professional use. Keep AI to one brief development-method mention. Education can later expand to include earned certifications; do not publish placeholders or unearned credentials.
 
-Earlier programming projects cover Java/Spring Boot microservices, Blossom Blueprint (Python/Flask), PlatePlan, and BBC News Reader. Descriptions were checked against repository documentation or the relevant application routes/controllers. Basic exercises, empty repositories, and duplicate implementations are not featured.
+Featured programming projects cover Java/Spring Boot microservices and BBC News Reader. Descriptions were checked against repository documentation or the relevant application routes/controllers. Basic exercises, empty repositories, and duplicate implementations are not featured.
 
 The GitHub Pages project site is served from the `Portfolio` repository's default branch. Keep the canonical URL and LinkedIn destination aligned if the project is moved.
