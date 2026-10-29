@@ -35,3 +35,5 @@ The GitHub Pages project site is served from the `Portfolio` repository's defaul
 ## October 29 layout refinement
 
 The standalone application screenshot is visible immediately. Two companion captures remain in one disclosure. The lead project uses one contribution-focused paragraph; duplicate contribution notes were removed. Both public programming projects use visible responsive cards, stacking on narrow screens. This follows the image-and-description pattern on Brittany Chiang’s portfolio and the concise writing on Lee Robinson’s site. No substitute thumbnails were invented for applications without verified captures.
+
+Experience also covers IT asset management, equipment reuse, upgrade and replacement planning, and software-vendor coordination, including CDK. These statements follow Kyle’s confirmation and task evidence; no monetary savings, lifespan duration, estate size, or senior title is inferred.

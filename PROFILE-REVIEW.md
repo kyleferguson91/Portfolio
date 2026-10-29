@@ -36,3 +36,7 @@ Checked the existing headline, IT Services and IT Consulting industry, location,
 LinkedIn's Featured link editor returned a preview-loading error for both the public portfolio and its GitHub repository and disabled Save. As a supported fallback, published the actual portfolio capture as Featured media, titled "Portfolio | IT Support, Automation & Software", with a short description and public website address. The saved Featured entry was verified. The existing Portfolio button and About URL remain available.
 
 LinkedIn's own references: [relevant skills and context](https://www.linkedin.com/business/talent/blog/talent-acquisition/skills-on-linkedin-profile), [skills ordering](https://www.linkedin.com/help/linkedin/answer/a564124), [education](https://www.linkedin.com/help/linkedin/answer/a539843), and [Featured work samples](https://www.linkedin.com/help/linkedin/answer/a552452/featured-section-on-your-profile-faqs).
+
+## October 29 IT operations scope
+
+Updated LinkedIn About and Stricklands experience, the portfolio experience/skills, four existing Word resume variants, and the public general PDF to include IT asset management, repurposing equipment to extend useful life, upgrade/replacement planning, and vendor coordination including CDK. Added IT Asset Management to LinkedIn with current-role context. Retained programming education and customer-facing experience. Statements use confirmed responsibilities and operational task evidence without publishing internal records or inferring savings, fleet size, or seniority.
