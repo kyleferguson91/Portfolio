@@ -24,3 +24,15 @@ Describe the problem and Kyle's contribution. Do not invent time savings, user c
 LinkedIn About connects practical support with named project examples and a portfolio destination. Retain the established headline and five relevant top skills. Condense earlier customer service experience around communication, scheduling, and problem resolution; preserve role names and dates.
 
 Reference sites informed structure and presentation. Their claims, code, and assets were not copied.
+
+## Detailed LinkedIn follow-up
+
+Inspected public and signed-in views of comparable profiles for Antonette Petallo, Shivam Soni, and Emmanuel M.; public views sometimes mask professional details. Their wording and skill groups were references, not evidence of Kyle's abilities. Current support skills were selected from Kyle's own verified work.
+
+Added Windows, Remote User Support, and Google Workspace with current-role associations. Ranked Technical Support, Process Automation, and Network Administration first in the full skills list. Linked Software Development to the current role and Algonquin education, and Customer Service to both customer-facing roles. Preserved existing education-linked programming languages and existing historical skills rather than discarding them or their endorsements.
+
+Checked the existing headline, IT Services and IT Consulting industry, location, portfolio URL, and education. The diploma entry lists completion in April 2025 and 4.0 GPA; the website now includes those education details. No new certification was claimed. Added an actual portfolio capture and Open Graph metadata for sharing.
+
+LinkedIn's Featured link editor returned a preview-loading error for both the public portfolio and its GitHub repository and disabled Save. No Featured entry was published. The existing Portfolio button and About URL remain available.
+
+LinkedIn's own references: [relevant skills and context](https://www.linkedin.com/business/talent/blog/talent-acquisition/skills-on-linkedin-profile), [skills ordering](https://www.linkedin.com/help/linkedin/answer/a564124), [education](https://www.linkedin.com/help/linkedin/answer/a539843), and [Featured work samples](https://www.linkedin.com/help/linkedin/answer/a552452/featured-section-on-your-profile-faqs).
