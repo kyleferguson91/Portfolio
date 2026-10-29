@@ -31,3 +31,7 @@ Lead with transferable IT support and software strengths; the current employer b
 Featured programming projects cover Java/Spring Boot microservices and BBC News Reader. Descriptions were checked against repository documentation or the relevant application routes/controllers. Basic exercises, empty repositories, and duplicate implementations are not featured.
 
 The GitHub Pages project site is served from the `Portfolio` repository's default branch. Keep the canonical URL and LinkedIn destination aligned if the project is moved.
+
+## October 29 layout refinement
+
+The standalone application screenshot is visible immediately. Two companion captures remain in one disclosure. The lead project uses one contribution-focused paragraph; duplicate contribution notes were removed. Both public programming projects use visible responsive cards, stacking on narrow screens. This follows the image-and-description pattern on Brittany Chiang’s portfolio and the concise writing on Lee Robinson’s site. No substitute thumbnails were invented for applications without verified captures.
